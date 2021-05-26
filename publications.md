@@ -1,6 +1,6 @@
-layout: page
-title: "Publications"
-permalink: /publications/
+layout: page  
+title: "Publications"  
+permalink: /publications/  
 
 
 Test
