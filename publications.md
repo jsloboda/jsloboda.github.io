@@ -14,6 +14,12 @@ Tsiligkaridis, T. and Sloboda, J., 2020, August. A Multi-task LSTM Framework for
 <a href="https://ieeexplore.ieee.org/abstract/document/9224286">
 Siu, H.C., Sloboda, J., McKindles, R.J. and Stirling, L.A., Ankle torque estimation during locomotion from surface electromyography and accelerometry. In 2020 8th IEEE RAS/EMBS International Conference for Biomedical Robotics and Biomechatronics (BioRob) (pp. 80-87). IEEE.
 </a>  
+
+Public Technical Report:  
+<a href="https://www.ll.mit.edu/r-d/publications/human-trafficking-technology-roadmap-targeted-development-strategy-department">
+The Human Trafficking Technology Roadmap: A Targeted Development Strategy for the Department of Homeland Security 
+</a>  
+(primary contributions regarding trafficking measurement & modeling: Section 3.4, Appendices D & E)  
   
 <a href="https://www.isca-speech.org/archive/Interspeech_2018/pdfs/2418.pdf">
 Sloboda, J., Lammert, A., Williamson, J., Smalt, C., Mehta, D.D., Curry, C.I. and Quatieri, T., 2018. Vocal biomarkers for cognitive performance estimation in a working memory task. environments, 5(10).
