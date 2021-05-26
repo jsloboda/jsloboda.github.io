@@ -1,3 +1,9 @@
+---
+layout: page  
+title: "Publications"  
+permalink: /publications/ 
+---
+
 Publications:  
 
 Tsiligkaridis, Theodoros, and Jennifer Sloboda. "A Multi-task LSTM Framework for Improved Early Sepsis Prediction." International Conference on Artificial Intelligence in Medicine. Springer, Cham, 2020.  
