@@ -45,13 +45,13 @@ function App() {
             <Link
               variant="button"
               color="text.primary"
-              href="#/projects/"
+              href="#/projects"
               sx={{ my: 1, mx: 1.5 }}
             >
               Projects
             </Link>
           </nav>
-          <Button href="#/pages/resume_jsloboda.pdf" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
+          <Button href="/resume_jsloboda.pdf" target="_blank" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
             Resume
           </Button>
         </Toolbar>
