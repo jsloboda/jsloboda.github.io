@@ -29,7 +29,7 @@ function App() {
             <Link
               variant="button"
               color="text.primary"
-              href="about"
+              href="#/about"
               sx={{ my: 1, mx: 1.5 }}
             >
               About
@@ -37,7 +37,7 @@ function App() {
             <Link
               variant="button"
               color="text.primary"
-              href="publications"
+              href="#/publications"
               sx={{ my: 1, mx: 1.5 }}
             >
               Publications
@@ -45,13 +45,13 @@ function App() {
             <Link
               variant="button"
               color="text.primary"
-              href="projects"
+              href="#/projects/"
               sx={{ my: 1, mx: 1.5 }}
             >
               Projects
             </Link>
           </nav>
-          <Button href="jsloboda.github.io/pages/resume_jsloboda.pdf" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
+          <Button href="#/pages/resume_jsloboda.pdf" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
             Resume
           </Button>
         </Toolbar>
