@@ -67,7 +67,9 @@ function App() {
           <Publications />
         </Route>
         <Route path="/projects">
-          <Typography >Coming Soon</Typography>
+          <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
+            <Typography align="center" variant="body1">Coming Soon</Typography>
+          </Container>
         </Route>
         <Route path="/resume">
           ToDo
