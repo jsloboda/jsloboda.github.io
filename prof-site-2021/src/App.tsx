@@ -51,7 +51,7 @@ function App() {
               Projects
             </Link>
           </nav>
-          <Button href="resume" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
+          <Button href="jsloboda.github.io/pages/resume_jsloboda.pdf" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
             Resume
           </Button>
         </Toolbar>
@@ -70,9 +70,6 @@ function App() {
           <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
             <Typography align="center" variant="body1">Coming Soon</Typography>
           </Container>
-        </Route>
-        <Route path="/resume">
-          ToDo
         </Route>
       </Switch>
     </main>
