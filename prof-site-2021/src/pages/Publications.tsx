@@ -13,9 +13,11 @@ class Publications extends React.Component {
                             Publications
                         </Typography>
                         <Typography align="left" variant="body2" paragraph>
+                            <a href="https://embs.papercept.net/conferences/conferences/EMBC21/program/EMBC21_ContentListWeb_3.html">
                                 Forthcoming:&nbsp;&nbsp;
                                 Utility of Inter-subject Transfer Learning for Wearable-Sensor-Based Joint Torque Prediction Models.
                                 IEEE EMBC 2021.
+                            </a>
                         </Typography>
                         <Typography align="left" variant="body2" paragraph>
                             <a href="https://ieeexplore.ieee.org/document/9513274">
@@ -34,7 +36,7 @@ class Publications extends React.Component {
                             </a>
                         </Typography>
                         <Typography align="left" variant="body2" paragraph>
-                            <a href="https://ieeexplore.ieee.org/abstract/document/9224286">
+                            <a href="https://link.springer.com/chapter/10.1007/978-3-030-59137-3_5">
                                 Tsiligkaridis, T. and Sloboda, J., 2020, August. 
                                 A Multi-task LSTM Framework for Improved Early Sepsis Prediction. 
                                 In International Conference on Artificial Intelligence in Medicine (pp. 49-58). 
