@@ -53,11 +53,6 @@ class About extends React.Component {
                         </Typography>
                     </Grid>
                 </Container>
-                <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
-                    <Typography align="center" variant="subtitle1">
-                    Site under development... Updated version coming soon!
-                    </Typography>
-                </Container>
             </Grid>   
         )
     }

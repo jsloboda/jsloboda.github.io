@@ -8,6 +8,7 @@ import Typography from '@mui/material/Typography';
 import  Link from '@mui/material/Link';
 import { Route, Switch} from "react-router-dom";
 
+import Home from './pages/Home';
 import About from './pages/About';
 import Publications from './pages/Publications';
 //import './App.css';
@@ -22,8 +23,10 @@ function App() {
         sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
       >
         <Toolbar sx={{ flexWrap: 'wrap' }}>
-          <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-            Jennifer Sloboda
+          <Typography variant="h6" color="text.primary" noWrap sx={{ flexGrow: 1 }}>
+            <Link variant="inherit" underline="none" color="text.primary" href="#/home">
+                Jennifer Sloboda
+              </Link>
           </Typography>
           <nav>
             <Link
@@ -58,7 +61,10 @@ function App() {
       </AppBar>
       <Switch>
         <Route exact path="/">
-          <About />
+          <Home />
+        </Route>
+        <Route exact path="/home">
+          <Home />
         </Route>
         <Route path="/about">
           <About />
