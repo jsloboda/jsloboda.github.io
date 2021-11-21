@@ -2,7 +2,6 @@ import React from 'react';
 import AppBar from '@mui/material/AppBar';
 import Button from '@mui/material/Button';
 import Container from '@mui/material/Container';
-import Grid from '@mui/material/Grid';
 import Toolbar from '@mui/material/Toolbar';
 import Typography from '@mui/material/Typography';
 import  Link from '@mui/material/Link';
@@ -19,11 +18,11 @@ function App() {
       <AppBar
         position="static"
         elevation={0}
-        sx={{background:"white", borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
+        sx={{background:"white", borderBottom:"1px solid black"}}
       >
         <Toolbar sx={{ flexWrap: 'wrap' }}>
           <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-            <Link variant="inherit" underline="hover" color="common.black" href="#/home">
+            <Link variant="inherit" underline="none" color="common.black" href="#/home">
                 Jennifer Sloboda
             </Link>
           </Typography>
@@ -56,7 +55,7 @@ function App() {
               Projects
             </Link>
           </nav>
-          <Button href="/resume_jsloboda.pdf" target="_blank" variant="outlined" sx={{ my: 1, mx: 1, p:0, pl:1, pr:1, color: "common.black", borderColor: "common.black" }}>
+          <Button href="/resume_jsloboda.pdf" target="_blank" sx={{ my: 1, mx: 1, p:0, pl:1, pr:1, color: "common.black", ':hover': {color: 'common.white', bgcolor: 'common.black'} }}>
             Resume
           </Button>
         </Toolbar>
@@ -85,3 +84,7 @@ function App() {
 }
 
 export default App;
+
+/*
+sx={{background:"white", borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
+*/

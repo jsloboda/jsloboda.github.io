@@ -32,8 +32,8 @@ class About extends React.Component {
                 </Grid>
 
 
-                <Grid item>
-                <Box sx={{p: 3, mt: 4, ml: 0, mr:0, backgroundColor: 'gray', width:'100%'}}>
+                <Grid item minWidth='100%'>
+                <Box sx={{p: 5, mt: 4, backgroundColor: 'lightgray', minWidth:'100%'}}>
                     <Grid item>
                         <Typography align="center" variant="body2" paragraph>
                             Broad algorithm development experience spanning: 
