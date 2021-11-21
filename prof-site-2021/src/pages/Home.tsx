@@ -13,7 +13,7 @@ class Home extends React.Component {
                     <Box sx={{p: 3, mt: 10, backgroundColor: 'white'}} >
                         <Grid item>
                             <Typography align="center" variant="h5" gutterBottom>
-                                Data Science  |  Machine Learning  |  Software Engineer
+                                Data Science &nbsp; | &nbsp; Machine Learning &nbsp; | &nbsp; Software Engineer
                             </Typography>
                         </Grid>
                         <Grid item sx={{mt: 5, mb: 3}}>
@@ -28,7 +28,7 @@ class Home extends React.Component {
                 </Grid>
                 <Grid item xs={12}>
                     <Grid container justifyContent='center'>
-                        <img src='wfh_zion_icon2-40t-onwhite.png' width='300'></img>
+                        <img src='wfh_zion_icon2-38t-onwhite.png' width='300'></img>
                     </Grid>
                 </Grid>
                 <Grid item sx={{p: 3, mt: 3}}>
