@@ -1,4 +1,5 @@
 import React from 'react';
+import Box from '@mui/material/Container';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import Typography from '@mui/material/Typography';
@@ -6,20 +7,31 @@ import Typography from '@mui/material/Typography';
 class About extends React.Component {
     render() {
         return(
-            <Grid container>
-                <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
-                    <Grid item>
-                        <Typography align="center" variant="h6" gutterBottom>
-                            Data Science / Machine Learning / Software Engineer
-                        </Typography>
-                        <Typography align="center" variant="body1">
-                            6+ years experience in interdisciplinary applied research
-                        </Typography>
-                        <Typography align="center" variant="body1" gutterBottom>
-                            primarily for health and humanitarian technology
-                        </Typography>
-                        <Typography align="center" variant="body1" gutterBottom> &nbsp; </Typography>
+            <Grid container justifyContent='center'>
+                <Grid item xs={12}>
+                    <Box sx={{p: 3, mt: 10, backgroundColor: 'white'}} >
+                        <Grid item>
+                            <Typography align="center" variant="h5" gutterBottom>
+                                Data Science  |  Machine Learning  |  Software Engineer
+                            </Typography>
+                        </Grid>
+                        <Grid item sx={{mt: 5, mb: 3}}>
+                            <Typography align="center" variant="body1" gutterBottom>
+                                6+ years experience in interdisciplinary applied research
+                            </Typography>
+                            <Typography align="center" variant="body1" gutterBottom>
+                                for health and humanitarian technology
+                            </Typography>
+                        </Grid>
+                    </Box>
+                </Grid>
+                <Grid item xs={12}>
+                    <Grid container justifyContent='center'>
+                        <img src='wfh_zion_icon2-40t-onwhite.png' width='300'></img>
                     </Grid>
+                </Grid>
+                <Grid item>
+                <Box sx={{p: 3, mt: 5, backgroundColor: 'white'}}>
                     <Grid item>
                         <Typography align="center" variant="body2" paragraph>
                             Broad algorithm development experience spanning: 
@@ -52,12 +64,8 @@ class About extends React.Component {
                             and team-oriented, growth-minded environments.
                         </Typography>
                     </Grid>
-                </Container>
-                <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
-                    <Typography align="center" variant="subtitle1">
-                    Site under development... Updated version coming soon!
-                    </Typography>
-                </Container>
+                </Box>
+                </Grid>
             </Grid>   
         )
     }
