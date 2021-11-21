@@ -15,7 +15,7 @@ class About extends React.Component {
                                 Data Science &nbsp; | &nbsp; Machine Learning &nbsp; | &nbsp; Software Engineer
                             </Typography>
                         </Grid>
-                        <Grid item sx={{mt: 5}}>
+                        <Grid item sx={{mt: 5, mb: 3}}>
                             <Typography align="center" variant="body1" gutterBottom>
                                 6+ years experience in interdisciplinary applied research
                             </Typography>
@@ -25,8 +25,15 @@ class About extends React.Component {
                         </Grid>
                     </Box>
                 </Grid>
+                <Grid item xs={12} sx={{mb: 7}}>
+                    <Grid container justifyContent='center'>
+                        <img src='wfh_zion_icon2-38t-onwhite.png' width='300'></img>
+                    </Grid>
+                </Grid>
+
+
                 <Grid item>
-                <Box sx={{p: 3, mt: 4, backgroundColor: 'white'}}>
+                <Box sx={{p: 3, mt: 4, ml: 0, mr:0, backgroundColor: 'gray', width:'100%'}}>
                     <Grid item>
                         <Typography align="center" variant="body2" paragraph>
                             Broad algorithm development experience spanning: 
@@ -39,7 +46,7 @@ class About extends React.Component {
                         <Typography align="center" variant="body2" paragraph>
                             Supporting software development for 
                             data preparation, exploratory analysis, scalable experimentation, visualization. 
-                            Aimed at developing a "full stack data science" skillset.
+                            Aimed at 
                         </Typography>
                         <Typography align="center" variant="body2" paragraph>
                             Engage with end users & domain experts. Create & present reports/briefings.
@@ -67,3 +74,11 @@ class About extends React.Component {
 }
 
 export default About;
+
+/*
+                <Grid item sx={{p: 3, mt: 3}}>
+                    <Typography align="center" variant="subtitle1">
+                        Developing a "full stack data science" skillset.
+                    </Typography>
+                </Grid> 
+*/

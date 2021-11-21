@@ -18,20 +18,20 @@ function App() {
     <main>
       <AppBar
         position="static"
-        color="default"
         elevation={0}
-        sx={{ borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
+        sx={{background:"white", borderBottom: (theme) => `1px solid ${theme.palette.divider}` }}
       >
         <Toolbar sx={{ flexWrap: 'wrap' }}>
           <Typography variant="h6" color="inherit" noWrap sx={{ flexGrow: 1 }}>
-            <Link variant="inherit" underline="none" color="text.primary" href="#/home">
+            <Link variant="inherit" underline="hover" color="common.black" href="#/home">
                 Jennifer Sloboda
             </Link>
           </Typography>
           <nav>
             <Link
               variant="button"
-              color="text.primary"
+              color="common.black"
+              underline="hover"
               href="#/about"
               sx={{ my: 1, mx: 1.5 }}
             >
@@ -39,7 +39,8 @@ function App() {
             </Link>
             <Link
               variant="button"
-              color="text.primary"
+              color="common.black"
+              underline="hover"
               href="#/publications"
               sx={{ my: 1, mx: 1.5 }}
             >
@@ -47,14 +48,15 @@ function App() {
             </Link>
             <Link
               variant="button"
-              color="text.primary"
+              color="common.black"
+              underline="hover"
               href="#/projects"
               sx={{ my: 1, mx: 1.5 }}
             >
               Projects
             </Link>
           </nav>
-          <Button href="/resume_jsloboda.pdf" target="_blank" variant="outlined" sx={{ my: 1, mx: 1.5 }}>
+          <Button href="/resume_jsloboda.pdf" target="_blank" variant="outlined" sx={{ my: 1, mx: 1, p:0, pl:1, pr:1, color: "common.black", borderColor: "common.black" }}>
             Resume
           </Button>
         </Toolbar>
