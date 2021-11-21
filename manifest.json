@@ -8,12 +8,12 @@
       "type": "image/x-icon"
     },
     {
-      "src": "zion_wfh_192.png",
+      "src": "wfh_zion_192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "zion_wfh_512.png",
+      "src": "wfh_zion_512.png",
       "type": "image/png",
       "sizes": "512x512"
     }
