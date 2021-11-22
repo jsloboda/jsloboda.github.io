@@ -92,6 +92,27 @@ class About extends React.Component {
                         </Grid>
                     </Box>
                     </Grid>
+                    <Grid container alignContent="center">
+                    <Box  sx={{pl:4, pr:4, pt:0, pb:1, m:2, mb:0, backgroundColor: 'white'}}>
+                        <Grid item sx={{width:'100%'}}>
+                            <Typography align="center" variant="subtitle1" color="common.black" fontStyle="bold" gutterBottom>
+                                Communication & collaboration
+                            </Typography>
+                        </Grid>
+                        <Grid container justifyContent="center" sx={{width:'100%', m:2, mt:1}}>
+                            <Typography align="center" variant="subtitle2" color="common.black" fontStyle="bold">
+                                Frequent interdisciplinary teamwork and 
+                                communicate to audiences with a range of technical backgrounds.&nbsp;
+                            </Typography>
+                            <Typography align="center" variant="subtitle2" color="common.black" fontStyle="bold">
+                                Engage with end users & domain experts.&nbsp; 
+                            </Typography>
+                            <Typography align="center" variant="subtitle2" color="common.black" fontStyle="bold">
+                                Create & present reports/briefings.&nbsp; 
+                            </Typography>
+                        </Grid>
+                    </Box>
+                    </Grid>
                 </Grid>
 
                 <Grid container justifyContent='center' sx={{mb:10}}>
@@ -178,16 +199,16 @@ class About extends React.Component {
                     </Grid>
                     <Grid container justifyContent="space-evenly" sx={{width:'80%', m:2, mt:1}}>
                         <Typography align="center" variant="subtitle2" color="common.black" fontStyle="bold">
-                            Dynamic roles ("wearing many hats").
+                            Dynamic roles ("wearing many hats").&nbsp;
                         </Typography>
                         <Typography align="center" variant="subtitle2" color="common.black" fontStyle="bold">
-                            Technically challenging and multi-disciplinary work. 
+                            Technically challenging and multi-disciplinary work.&nbsp;
                         </Typography>
                         <Typography align="center" variant="subtitle2" color="common.black" fontStyle="bold">
-                            Positive, impact-driven missions.
+                            Positive, impact-driven missions.&nbsp;
                         </Typography>
                         <Typography align="center" variant="subtitle2" color="common.black" fontStyle="bold">
-                            Team-oriented, growth-minded environments.
+                            Team-oriented, growth-minded environments.&nbsp;
                         </Typography>
                     </Grid>
                 </Grid>
