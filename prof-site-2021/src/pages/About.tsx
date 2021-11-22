@@ -1,5 +1,7 @@
 import React from 'react';
 import Box from '@mui/material/Container';
+import Card from '@mui/material/Card';
+import CardContent from '@mui/material/CardContent';
 import Container from '@mui/material/Container';
 import Grid from '@mui/material/Grid';
 import List from '@mui/material/List';
@@ -32,15 +34,15 @@ class About extends React.Component {
                 <Grid item>
                 <Grid container justifyContent="center" sx={{mt: 4}}>
                     <Grid item  xs={10} md={5} sx={{m: 2}}>
-                        <Box sx={{p:5, backgroundColor: blueGrey[300], border:'0px solid black'}}>
+                        <Card sx={{p:5, backgroundColor: blueGrey[200], border:'0px solid black'}}>
                             <Typography align="center" variant="h6" paragraph color="common.black" fontStyle="bold">
                                 Broad algorithm development experience: 
                             </Typography>
                             <Typography align="center" variant="body2" color="common.black">
                                 <List dense={true}>
                                     <ListItem>- machine learning model development</ListItem>
-                                    <ListItem>(time series prediction/classificaiton, object detection & image classification,
-                                    lanuage models)</ListItem>
+                                    <ListItem sx={{pl:5}}>time series prediction & classificaiton, object detection & image classification,
+                                    lanuage models</ListItem>
                                     <ListItem>- high-level embedded model deployment</ListItem>
                                     <ListItem>- physiological signal processing</ListItem>
                                     <ListItem>- speech analysis</ListItem>
@@ -48,10 +50,10 @@ class About extends React.Component {
                                     <ListItem>- social statistics</ListItem>
                                 </List>
                             </Typography>
-                        </Box>
+                        </Card>
                     </Grid>
                     <Grid item  xs={10} md={5} sx={{m: 2}}>
-                        <Box sx={{p:5, backgroundColor: blueGrey[300], border:'0px solid black'}}>
+                        <Card sx={{p:5, backgroundColor: blueGrey[200], border:'0px solid black'}}>
                             <Typography align="center" variant="h6" paragraph color="common.black" fontStyle="bold">
                                 Software development supporting:
                             </Typography>
@@ -61,10 +63,24 @@ class About extends React.Component {
                                     <ListItem>- exploratory analysis</ListItem>
                                     <ListItem>- scalable experimentation</ListItem>
                                     <ListItem>- visualization</ListItem>
-                                    <ListItem>- web development & design (1 year)</ListItem>
                                 </List>
                             </Typography>
-                        </Box>
+                        </Card>
+                        <Card sx={{mt: 3, pl:5, pr:5, pt:2, pb:2, backgroundColor: blueGrey[200], border:'0px solid black'}}>
+                            <Typography align="center" variant="body1" color="common.black" fontStyle="bold">
+                                Web development & design
+                            </Typography>
+                            <Typography align="center" variant="body2" color="common.black" fontStyle="italic">
+                                (~1 year experience)
+                            </Typography>
+                        </Card>
+                    </Grid>
+                    <Grid item  xs={10} sx={{m: 2}}>
+                        <Card sx={{p:5, backgroundColor: blueGrey[200], border:'0px solid black'}}>
+                            <Typography align="center" variant="body1" color="common.black" fontStyle="bold">
+                                Engage with end users & domain experts. Create & present reports/briefings.
+                            </Typography>
+                        </Card>
                     </Grid>
                 </Grid>
                 </Grid>
