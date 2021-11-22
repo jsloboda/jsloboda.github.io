@@ -17,15 +17,15 @@ class About extends React.Component {
                     <Box sx={{p:3, mt:10, mb:4, backgroundColor: 'white'}} >
                         <Grid container justifyContent="center">
                             <Typography align="center" variant="h5" gutterBottom>
-                                Data Science &nbsp; 
+                                Data Science&nbsp;&nbsp;
                             </Typography>
-                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>| &nbsp;</Typography>
+                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>&nbsp;|&nbsp;&nbsp;</Typography>
                             <Typography align="center" variant="h5" gutterBottom>
-                                Machine Learning &nbsp; 
+                                &nbsp;Machine Learning&nbsp;&nbsp;
                             </Typography>
-                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>| &nbsp;</Typography>
+                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>&nbsp;|&nbsp;&nbsp;</Typography>
                             <Typography align="center" variant="h5" gutterBottom>
-                                Software Engineer
+                                &nbsp;Software Engineer
                             </Typography>
                         </Grid>
                         <Grid item sx={{mt: 5, mb: 3}}>

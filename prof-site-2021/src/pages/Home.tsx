@@ -11,15 +11,28 @@ class Home extends React.Component {
             <Grid container justifyContent='center'>
                 <Grid item xs={12}>
                     <Box sx={{p: 3, mt: 10, backgroundColor: 'white'}} >
-                        <Grid item>
+                        <Grid container justifyContent="center">
                             <Typography align="center" variant="h5" gutterBottom>
-                                Data Science &nbsp; | &nbsp; Machine Learning &nbsp; | &nbsp; Software Engineer
+                                Data Science&nbsp;&nbsp;
+                            </Typography>
+                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>&nbsp;|&nbsp;&nbsp;</Typography>
+                            <Typography align="center" variant="h5" gutterBottom>
+                                &nbsp;Machine Learning&nbsp;&nbsp;
+                            </Typography>
+                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>&nbsp;|&nbsp;&nbsp;</Typography>
+                            <Typography align="center" variant="h5" gutterBottom>
+                                &nbsp;Software Engineer
                             </Typography>
                         </Grid>
                         <Grid item sx={{mt: 5, mb: 3}}>
+                            <Grid container justifyContent="center">
                             <Typography align="center" variant="body1" gutterBottom>
-                                6+ years experience in interdisciplinary applied research
+                                6+ years experience in
                             </Typography>
+                            <Typography align="center" variant="body1" gutterBottom>
+                                interdisciplinary applied research
+                            </Typography>
+                            </Grid>
                             <Typography align="center" variant="body1" gutterBottom>
                                 for health and humanitarian technology
                             </Typography>
