@@ -29,9 +29,14 @@ class About extends React.Component {
                             </Typography>
                         </Grid>
                         <Grid item sx={{mt: 5, mb: 3}}>
+                            <Grid container justifyContent="center">
                             <Typography align="center" variant="body1" gutterBottom>
-                                6+ years experience in interdisciplinary applied research
+                                6+ years experience in
                             </Typography>
+                            <Typography align="center" variant="body1" gutterBottom>
+                                interdisciplinary applied research
+                            </Typography>
+                            </Grid>
                             <Typography align="center" variant="body1" gutterBottom>
                                 for health and humanitarian technology
                             </Typography>
@@ -108,10 +113,10 @@ class About extends React.Component {
                             <Typography variant="h6">Web Dev & Design</Typography>
                         </Divider>
                     </Grid>
-                    <Grid item justifyContent="space-evenly" sx={{width:'80%', m:2, mt:1}}>
-                        <Typography align="center" variant="body2" color="common.black" fontStyle="bold" gutterBottom>
+                    <Grid container justifyContent="center" sx={{width:'80%', m:2, mt:1}}>
+                        <Typography display="inline" align="center" variant="body2" color="common.black" fontStyle="bold">
                             ~1 year experience in front-end web development, requirements development, and UI design.
-                            Largely for data dashboards.
+                            &nbsp;Largely for data dashboards.
                         </Typography>
                     </Grid>
                 </Grid>
