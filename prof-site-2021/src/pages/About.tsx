@@ -15,9 +15,17 @@ class About extends React.Component {
             <Grid container justifyContent='center'>
                 <Grid item xs={12}>
                     <Box sx={{p:3, mt:10, mb:4, backgroundColor: 'white'}} >
-                        <Grid item>
+                        <Grid container justifyContent="center">
                             <Typography align="center" variant="h5" gutterBottom>
-                                Data Science &nbsp; | &nbsp; Machine Learning &nbsp; | &nbsp; Software Engineer
+                                Data Science &nbsp; 
+                            </Typography>
+                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>| &nbsp;</Typography>
+                            <Typography align="center" variant="h5" gutterBottom>
+                                Machine Learning &nbsp; 
+                            </Typography>
+                            <Typography variant="h5" sx={{display: {xs:'none', sm:'block'} }}>| &nbsp;</Typography>
+                            <Typography align="center" variant="h5" gutterBottom>
+                                Software Engineer
                             </Typography>
                         </Grid>
                         <Grid item sx={{mt: 5, mb: 3}}>
@@ -222,6 +230,14 @@ class About extends React.Component {
 }
 
 export default About;
+
+/* 
+<Grid item>
+    <Typography align="center" variant="h5" gutterBottom>
+        Data Science &nbsp; | &nbsp; Machine Learning &nbsp; | &nbsp; Software Engineer
+    </Typography>
+</Grid>
+*/
 
 /*
 <Grid container justifyContent="space-evenly" sx={{width:'80%', m:2, mt:1, mb:6}}>

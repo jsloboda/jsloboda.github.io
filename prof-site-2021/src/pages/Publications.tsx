@@ -7,7 +7,7 @@ class Publications extends React.Component {
     render() {
         return(
             <Grid container>
-                <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6 }}>
+                <Container disableGutters maxWidth="sm" component="main" sx={{ pt: 8, pb: 6, pl:2, pr:2}}>
                     <Grid item>
                         <Typography align="center" variant="h6" paragraph>
                             Publications
